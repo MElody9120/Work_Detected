@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "E:\\AndroidWorkSpace\\Work_Detected-master",
+      "sdkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app",
+      "makeFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\src\\main\\jni\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\.cxx",
+      "cxxFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}

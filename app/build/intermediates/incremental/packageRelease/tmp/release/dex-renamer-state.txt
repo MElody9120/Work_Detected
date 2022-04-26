@@ -1,0 +1,4 @@
+#Mon Apr 25 15:37:09 CST 2022
+base.0=E\:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
