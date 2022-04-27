@@ -30,9 +30,19 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 
 ---
 
+### 4-27-2022 Master
+
+#### 概述
+1. 修改文件，因为空间影响删除```APP/Build/Output/Debug```
+2. 增添一部分注释
+3. 添加```Log4J```部分内容
+
+Author : Melody
+
+
 ### 4-24-2022  Master
 
-## 概述
+#### 概述
 
 1. 增添README.md
 2. 模型文件调整

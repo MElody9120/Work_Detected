@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "E:\\AndroidWorkSpace\\Work_Detected\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "E:\\AndroidWorkSpace\\Work_Detected-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "12,3,2",
                         "startColumns": "4,4,4",
-                        "startOffsets": "366,104,55",
+                        "startOffsets": "378,107,57",
                         "endLines": "15,11,2",
                         "endColumns": "19,19,48",
-                        "endOffsets": "470,361,99"
+                        "endOffsets": "485,372,101"
                     },
                     "to": {
                         "startLines": "2,6,15",

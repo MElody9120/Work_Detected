@@ -56,6 +56,7 @@ static int draw_unsupported(cv::Mat& rgb)
     return 0;
 }
 
+// draw_Fps
 static int draw_fps(cv::Mat& rgb)
 {
     // resolve moving average
