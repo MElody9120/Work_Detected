@@ -6,7 +6,7 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 
 ---
 
-1. 基于 [**NCNN 框架**]() 结合 [**OpenCV--Android**](https://github.com/nihui/opencv-mobile) 实现模型在安卓端的部署与实现
+1. 基于 [**NCNN 框架**](https://github.com/Tencent/ncnn) 结合 [**OpenCV--Android**](https://github.com/nihui/opencv-mobile) 实现模型在安卓端的部署与实现
 2. 模型采用  **YOLO思路**  下基于安卓与嵌入式特别开发的开源模型 [**NanoDet**](https://github.com/RangiLyu/nanodet)
 
 
