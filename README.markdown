@@ -29,6 +29,12 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 ## 更新日志 Update Log
 
 ---
+### 5-5-2022 Master
+1. 尝试进行向下版本兼容失败，```Run```
+2. 要求设备版本型号```Android >= 9.0```
+3. 修改了一些```gradle```配置，增添一部分注释
+
+Author : Melody
 
 ### 4-27-2022 Master
 

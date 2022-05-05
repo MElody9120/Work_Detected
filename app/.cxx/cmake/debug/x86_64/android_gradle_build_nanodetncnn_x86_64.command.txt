@@ -1,7 +1,7 @@
-Executable : C:\Users\Administrator\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+Executable : C:\Users\Melody\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-E:\AndroidWorkSpace\Work_Detected\app\.cxx\cmake\debug\x86_64
+D:\AndroidWorkSpace\Work_Detected\app\.cxx\cmake\debug\x86_64
 nanodetncnn
 jvmArgs : 
 
