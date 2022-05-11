@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-4",
+  "ndkFolder": "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669",
   "messages": [
     {
       "level": "INFO",
@@ -15,55 +15,23 @@
     },
     {
       "level": "INFO",
-      "message": "sdkFolder is C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk"
+      "message": "sdkFolder is C:\\Users\\123\\AppData\\Local\\Android\\Sdk"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder"
+      "message": "Considering C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669 in SDK ndk folder"
+      "message": "Considering C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-2 in SDK ndk folder"
+      "message": "Rejected C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-3 in SDK ndk folder"
-    },
-    {
-      "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-4 in SDK ndk folder"
-    },
-    {
-      "level": "INFO",
-      "message": "Considering C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888 in SDK ndk folder"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669 in SDK ndk folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-2 in SDK ndk folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-3 in SDK ndk folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "Rejected C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\24.0.8215888 in SDK ndk folder because that location has no source.properties"
-    },
-    {
-      "level": "INFO",
-      "message": "No user requested version, choosing C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-4 which is version 21.0.6113669"
+      "message": "No user requested version, choosing C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669 which is version 21.0.6113669"
     }
   ]
 }

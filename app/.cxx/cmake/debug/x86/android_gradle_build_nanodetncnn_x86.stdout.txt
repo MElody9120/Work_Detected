@@ -1,2 +1,0 @@
-ninja: Entering directory `D:\AndroidWorkSpace\Work_Detected\app\.cxx\cmake\debug\x86'
-ninja: no work to do.
