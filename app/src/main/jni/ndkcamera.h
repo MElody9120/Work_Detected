@@ -32,7 +32,7 @@ public:
     virtual ~NdkCamera();
 
     // facing 0=front 1=back
-    int open(int camera_facing = 0);
+    int open(int camera_facing);
     void close();
 
     virtual void on_image(const cv::Mat& rgb) const;

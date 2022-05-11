@@ -36,15 +36,11 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
 {
     public static final int REQUEST_CAMERA = 100;
 
-    private NanoDetNcnn nanodetncnn = new NanoDetNcnn();
-    private int facing = 0;
+    private final NanoDetNcnn nanodetncnn = new NanoDetNcnn();
+    private int facing = 1;
 
-    private Spinner spinnerModel;
-    private Spinner spinnerCPUGPU;
     private int current_model = 0;
     private int current_cpugpu = 0;
-
-    private SurfaceView cameraView;
 
     /** Called when the activity is first created. */
     @Override
@@ -55,7 +51,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        cameraView = (SurfaceView) findViewById(R.id.cameraview);
+        SurfaceView cameraView = (SurfaceView) findViewById(R.id.cameraview);
 
         cameraView.getHolder().setFormat(PixelFormat.RGBA_8888);
         cameraView.getHolder().addCallback(this);
@@ -75,7 +71,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
             }
         });
 
-        spinnerModel = (Spinner) findViewById(R.id.spinnerModel);
+        Spinner spinnerModel = (Spinner) findViewById(R.id.spinnerModel);
         spinnerModel.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id)
@@ -93,7 +89,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
             }
         });
 
-        spinnerCPUGPU = (Spinner) findViewById(R.id.spinnerCPUGPU);
+        Spinner spinnerCPUGPU = (Spinner) findViewById(R.id.spinnerCPUGPU);
         spinnerCPUGPU.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> arg0, View arg1, int position, long id)

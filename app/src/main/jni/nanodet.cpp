@@ -477,6 +477,10 @@ int NanoDet::draw(cv::Mat& rgb, const std::vector<Object>& objects)
         cv::Scalar textcc = (color[0] + color[1] + color[2] >= 381) ? cv::Scalar(0, 0, 0) : cv::Scalar(255, 255, 255);
 
         cv::putText(rgb, text, cv::Point(x, y + label_size.height), cv::FONT_HERSHEY_SIMPLEX, 0.5, textcc, 1);
+
+        //输出Android_Log
+        __android_log_print(ANDROID_LOG_WARN,"LabelGet","This is %s ！",class_names[obj.label]);
+        __android_log_print(ANDROID_LOG_WARN,"PositionGet","x = %f,Y = %f",obj.rect.x,obj.rect.y);
     }
 
     return 0;
