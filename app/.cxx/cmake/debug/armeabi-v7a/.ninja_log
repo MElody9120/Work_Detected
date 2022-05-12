@@ -7,3 +7,10 @@
 9	1871	673953808	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	1db9cc29e6cc5dd0
 6	2056	673953808	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	a47f17804c387fd2
 2056	3586	673953809	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnanodetncnn.so	a7dfa955b2b0fb84
+11	1492	674032081	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnanodetncnn.so	a7dfa955b2b0fb84
+9	2122	674032578	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	f1ba01f7fc567326
+4	2193	674032578	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	1db9cc29e6cc5dd0
+2193	3674	674032579	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnanodetncnn.so	a7dfa955b2b0fb84
+19	2364	674041519	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	f1ba01f7fc567326
+7	2365	674041519	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	1db9cc29e6cc5dd0
+2365	4637	674041521	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnanodetncnn.so	a7dfa955b2b0fb84

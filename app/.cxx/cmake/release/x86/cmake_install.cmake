@@ -1,4 +1,4 @@
-# Install script for directory: E:/AndroidWorkSpace/Work_Detected-master/app/src/main/jni
+# Install script for directory: D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/src/main/jni
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/AndroidWorkSpace/Work_Detected-master/app/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

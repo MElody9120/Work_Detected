@@ -1,35 +1,35 @@
 {
   "buildFiles": [
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
-    "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-4\\build\\cmake\\platforms.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVConfig.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
-    "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669-4\\build\\cmake\\android.toolchain.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\CMakeLists.txt",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\OpenCVConfig.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules-release.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake",
-    "D:\\AndroidWorkSpace\\Work_Detected\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake"
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVConfig.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\CMakeLists.txt",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\opencv-mobile-4.5.4-android\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules-release.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake",
+    "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake",
+    "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\src\\main\\jni\\ncnn-20220420-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkSpace\\Work_Detected\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+    "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkSpace\\Work_Detected\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "nanodetncnn-Debug-arm64-v8a": {
       "artifactName": "nanodetncnn",
-      "buildCommand": "C:\\Users\\Melody\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkSpace\\Work_Detected\\app\\.cxx\\cmake\\debug\\arm64-v8a\" nanodetncnn",
+      "buildCommand": "C:\\Users\\123\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" nanodetncnn",
       "abi": "arm64-v8a",
-      "output": "D:\\AndroidWorkSpace\\Work_Detected\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnanodetncnn.so"
+      "output": "D:\\AndroidWorkspace\\Work_Detected-master\\Work_Detected-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnanodetncnn.so"
     }
   }
 }

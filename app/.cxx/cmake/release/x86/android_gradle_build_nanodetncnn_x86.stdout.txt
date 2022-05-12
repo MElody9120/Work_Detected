@@ -1,20 +1,2 @@
-ninja: Entering directory `E:\AndroidWorkSpace\Work_Detected-master\app\.cxx\cmake\release\x86'
-ninja: Entering directory `E:\AndroidWorkSpace\Work_Detected-master\app\.cxx\cmake\release\x86'
-[1/4] Building CXX object CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o
-E:/AndroidWorkSpace/Work_Detected-master/app/src/main/jni/ndkcamera.cpp:152:117: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
-    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %ld", session, sequenceId, frameNumber);
-                                                                                         ~~~                        ^~~~~~~~~~~
-                                                                                         %lld
-1 warning generated.
-[2/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o
-[1/4] Building CXX object CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o
-E:/AndroidWorkSpace/Work_Detected-master/app/src/main/jni/ndkcamera.cpp:152:117: warning: format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
-    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %ld", session, sequenceId, frameNumber);
-                                                                                         ~~~                        ^~~~~~~~~~~
-                                                                                         %lld
-1 warning generated.
-[2/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o
-[3/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodet.cpp.o
-[3/4] Building CXX object CMakeFiles/nanodetncnn.dir/nanodet.cpp.o
-[4/4] Linking CXX shared library E:\AndroidWorkSpace\Work_Detected-master\app\build\intermediates\cmake\release\obj\x86\libnanodetncnn.so
-[4/4] Linking CXX shared library E:\AndroidWorkSpace\Work_Detected-master\app\build\intermediates\cmake\release\obj\x86\libnanodetncnn.so
+ninja: Entering directory `D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\.cxx\cmake\release\x86'
+ninja: no work to do.

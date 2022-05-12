@@ -63,11 +63,10 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
 
                 int new_facing = 1 - facing;
 
-                nanodetncnn.closeCamera();
-
+                //切换前置后置摄像头
                 nanodetncnn.openCamera(new_facing);
-
                 facing = new_facing;
+                nanodetncnn.closeCamera();
             }
         });
 
@@ -144,7 +143,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
         {
             ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, REQUEST_CAMERA);
         }
-
+        // default open Camera ID = facing ,facing is Camera ID controller
         nanodetncnn.openCamera(facing);
     }
 

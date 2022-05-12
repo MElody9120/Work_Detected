@@ -1,2 +1,4 @@
-ninja: Entering directory `D:\AndroidWorkSpace\Work_Detected\app\.cxx\cmake\debug\arm64-v8a'
-ninja: no work to do.
+ninja: Entering directory `D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\.cxx\cmake\debug\arm64-v8a'
+[1/3] Building CXX object CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o
+[2/3] Building CXX object CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o
+[3/3] Linking CXX shared library D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\build\intermediates\cmake\debug\obj\arm64-v8a\libnanodetncnn.so
