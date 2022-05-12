@@ -25,7 +25,7 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 此为模型部署，故没有**Python**部分内容 ，整体项目框架所采用的语言为```C```与```JAVA```
 
 摄像头ID控制，为采用`camera_facing`参数作为参数开关，若需更改，请全局搜索项目文件，更改`camera_facing`变量即可实现更改所需要的控制摄像头
-    1. `facing = 1 `为开启前置摄像头
+	1. `facing = 1 `为开启前置摄像头
     2. `facing = 0 `为开启后置摄像头
 
 本项目需要调用`Camera2 API`,对摄像头硬件参数有要求，不能为`legacy`等级
