@@ -1,8 +1,13 @@
 # ninja log v5
-5	1977	674032078	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
-1	2015	674032078	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	e3ae25a9529cc6d5
-4	2150	674032078	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	3c0a08e3c94b0059
-2150	4040	674032080	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
-4	1811	674032581	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
-2	1852	674032581	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	e3ae25a9529cc6d5
-1852	3380	674032583	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
+26	3111	674384448	CMakeFiles/nanodetncnn.dir/nanodet.cpp.o	3c0a08e3c94b0059
+2	1830	674131743	CMakeFiles/nanodetncnn.dir/nanodetncnn.cpp.o	e3ae25a9529cc6d5
+40	3854	674388419	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
+3855	6108	674388422	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
+4	2204	674389593	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
+2204	4400	674389595	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
+18	3715	674389886	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
+3715	13335	674389895	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
+5	2150	674390015	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
+2150	3982	674390017	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb
+9	2349	674392978	CMakeFiles/nanodetncnn.dir/ndkcamera.cpp.o	b423cafdb1f35f52
+2349	4299	674392980	D:/AndroidWorkspace/Work_Detected-master/Work_Detected-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnanodetncnn.so	57611152a6f20fdb

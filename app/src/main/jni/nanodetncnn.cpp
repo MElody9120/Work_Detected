@@ -254,8 +254,8 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_loadModel(JN
 // public native boolean openCamera(int facing);
 JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_openCamera(JNIEnv* env, jobject thiz, jint facing)
 {
-    if (facing < 0 || facing > 1)
-        return JNI_FALSE;
+//    if (facing < 0 || facing > 1)
+//        return JNI_FALSE;
 
     __android_log_print(ANDROID_LOG_DEBUG, "ncnn", "openCamera %d", facing);
 

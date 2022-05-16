@@ -209,6 +209,8 @@ NanoDet::NanoDet()
     workspace_pool_allocator.set_size_compare_ratio(0.f);
 }
 
+
+
 int NanoDet::load(const char* modeltype, int _target_size, const float* _mean_vals, const float* _norm_vals, bool use_gpu)
 {
     nanodet.clear();
@@ -365,7 +367,7 @@ int NanoDet::detect(const cv::Mat& rgb, std::vector<Object>& objects, float prob
     // sort all proposals by score from highest to lowest
     qsort_descent_inplace(proposals);
 
-    // apply nms with nms_threshold
+    // apply nms with nms_threshold ，return tensor calculator
     std::vector<int> picked;
     nms_sorted_bboxes(proposals, picked, nms_threshold);
 
@@ -478,7 +480,7 @@ int NanoDet::draw(cv::Mat& rgb, const std::vector<Object>& objects)
 
         cv::putText(rgb, text, cv::Point(x, y + label_size.height), cv::FONT_HERSHEY_SIMPLEX, 0.5, textcc, 1);
 
-        //输出Android_Log
+        //print Android_Log
         __android_log_print(ANDROID_LOG_WARN,"LabelGet","This is %s ！",class_names[obj.label]);
         __android_log_print(ANDROID_LOG_WARN,"PositionGet","x = %f,Y = %f",obj.rect.x,obj.rect.y);
     }

@@ -37,6 +37,15 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 
 ---
 
+### 5-16-2022 Master
+
+#### 概述
+1. 增添了部分注释
+2. 修改了一些逻辑问题
+3. 安卓开发板中无法调用摄像头问题得到解决，初步结果等待硬件寄到后开始测试
+
+Author ： Melody
+
 ### 5-11-2022 Master
 
 #### 概述

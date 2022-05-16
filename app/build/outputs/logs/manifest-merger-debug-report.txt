@@ -26,10 +26,10 @@ uses-permission#android.permission.CAMERA
 ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
 		ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:6:22-62
-uses-feature#android.hardware.camera2.full
-ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:7:5-66
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:7:5-70
 	android:name
-		ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:7:19-63
+		ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:7:19-67
 application
 ADDED from D:\AndroidWorkspace\Work_Detected-master\Work_Detected-master\app\src\main\AndroidManifest.xml:9:5-18:19
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\123\.gradle\caches\transforms-2\files-2.1\6604e1fd68c93dfff76c7dcde3436152\support-v4-24.0.0\AndroidManifest.xml:25:5-20

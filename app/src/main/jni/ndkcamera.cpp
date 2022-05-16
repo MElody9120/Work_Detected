@@ -20,6 +20,9 @@
 
 #include <opencv2/core/core.hpp>
 
+
+#include <camera/NdkCameraDevice.h>
+
 #include "mat.h"
 
 static void onDisconnected(void* context, ACameraDevice* device)
@@ -149,7 +152,7 @@ void onCaptureFailed(void* context, ACameraCaptureSession* session, ACaptureRequ
 
 void onCaptureSequenceCompleted(void* context, ACameraCaptureSession* session, int sequenceId, int64_t frameNumber)
 {
-    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %ld", session, sequenceId, frameNumber);
+    __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureSequenceCompleted %p %d %lld", session, sequenceId, frameNumber);
 }
 
 void onCaptureSequenceAborted(void* context, ACameraCaptureSession* session, int sequenceId)
@@ -159,12 +162,12 @@ void onCaptureSequenceAborted(void* context, ACameraCaptureSession* session, int
 
 void onCaptureCompleted(void* context, ACameraCaptureSession* session, ACaptureRequest* request, const ACameraMetadata* result)
 {
-//     __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureCompleted %p %p %p", session, request, result);
+     __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "onCaptureCompleted %p %p %p", session, request, result);
 }
 
 NdkCamera::NdkCamera()
 {
-    camera_facing = 0;
+    camera_facing = 1;
     camera_orientation = 0;
 
     camera_manager = 0;
@@ -177,8 +180,7 @@ NdkCamera::NdkCamera()
     capture_session_output = 0;
     capture_session = 0;
 
-
-    // setup imagereader and its surface
+    // setup imagereaderr and its surface
     {
         AImageReader_new(640, 480, AIMAGE_FORMAT_YUV_420_888, /*maxImages*/2, &image_reader);
 
@@ -218,20 +220,21 @@ int NdkCamera::open(int _camera_facing)
     camera_facing = _camera_facing;
 
     camera_manager = ACameraManager_create();
-
+    camera_facing = _camera_facing;
+    __android_log_print(ANDROID_LOG_WARN,"NdkCamera","open %d ! ",camera_facing);
     // find front camera
     std::string camera_id;
     {
         ACameraIdList* camera_id_list = 0;
         ACameraManager_getCameraIdList(camera_manager, &camera_id_list);
+        // getCameraIdlist camera_manager,&camera_id_list will show the information on camera_id_list
 
         for (int i = 0; i < camera_id_list->numCameras; ++i)
         {
             const char* id = camera_id_list->cameraIds[i];
             ACameraMetadata* camera_metadata = 0;
             ACameraManager_getCameraCharacteristics(camera_manager, id, &camera_metadata);
-
-            // query faceing
+            // query faceing facing front / behind ACAMERA_LENS_FACING_EXTERNAL = 2
             acamera_metadata_enum_android_lens_facing_t facing = ACAMERA_LENS_FACING_FRONT;
             {
                 ACameraMetadata_const_entry e = { 0 };
@@ -251,8 +254,12 @@ int NdkCamera::open(int _camera_facing)
                 continue;
             }
 
+            if (camera_facing ==2 && facing != ACAMERA_LENS_FACING_EXTERNAL)
+            {
+                ACameraMetadata_free(camera_metadata);
+                continue;
+            }
             camera_id = id;
-
             // query orientation
             int orientation = 0;
             {
@@ -268,26 +275,22 @@ int NdkCamera::open(int _camera_facing)
 
             break;
         }
-
         ACameraManager_deleteCameraIdList(camera_id_list);
     }
-
+// ORIENTATION 0 90 180 270
     __android_log_print(ANDROID_LOG_WARN, "NdkCamera", "open %s %d", camera_id.c_str(), camera_orientation);
-
     // open camera
     {
         ACameraDevice_StateCallbacks camera_device_state_callbacks;
         camera_device_state_callbacks.context = this;
         camera_device_state_callbacks.onDisconnected = onDisconnected;
         camera_device_state_callbacks.onError = onError;
-
         ACameraManager_openCamera(camera_manager, camera_id.c_str(), &camera_device_state_callbacks, &camera_device);
     }
 
     // capture request
     {
         ACameraDevice_createCaptureRequest(camera_device, TEMPLATE_PREVIEW, &capture_request);
-
         ACameraOutputTarget_create(image_reader_surface, &image_reader_target);
         ACaptureRequest_addTarget(capture_request, image_reader_target);
     }

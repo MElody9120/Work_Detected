@@ -34,7 +34,7 @@ import android.support.v4.content.ContextCompat;
 
 public class MainActivity extends Activity implements SurfaceHolder.Callback
 {
-    public static final int REQUEST_CAMERA = 100;
+    public static int REQUEST_CAMERA = 100;
 
     private final NanoDetNcnn nanodetncnn = new NanoDetNcnn();
     private int facing = 1;
@@ -48,7 +48,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         SurfaceView cameraView = (SurfaceView) findViewById(R.id.cameraview);
@@ -87,7 +86,6 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
             {
             }
         });
-
         Spinner spinnerCPUGPU = (Spinner) findViewById(R.id.spinnerCPUGPU);
         spinnerCPUGPU.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -151,7 +149,8 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback
     public void onPause()
     {
         super.onPause();
-
         nanodetncnn.closeCamera();
     }
 }
+
+
