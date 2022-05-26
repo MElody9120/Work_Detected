@@ -44,6 +44,8 @@ Android Real-time video stream detect By using NanoDet model based on NCNN frame
 2. 模型部署遇上困难，这套框架部署不了```nanodet-plus``` 训练的模型，**大寄特寄**
 3. 此项目完结，已经采用另一套框架实现部署，原项目迁移工作ing~~~
 
+Author : Melody
+
 ### 5-16-2022 Master
 
 #### 概述
