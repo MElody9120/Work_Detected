@@ -195,7 +195,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_nanodetncnn_NanoDetNcnn_loadModel(JN
 
     const int target_sizes[] =
     {
-        320,
+        640,
         416,
         416,
         320,

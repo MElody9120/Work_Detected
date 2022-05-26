@@ -17,8 +17,9 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 
-#include "cpu.h"
+#include "nanodet.mem.h"
 
+#include "cpu.h"
 static inline float intersection_area(const Object& a, const Object& b)
 {
     cv::Rect_<float> inter = a.rect & b.rect;
@@ -412,15 +413,25 @@ int NanoDet::detect(const cv::Mat& rgb, std::vector<Object>& objects, float prob
 int NanoDet::draw(cv::Mat& rgb, const std::vector<Object>& objects)
 {
     static const char* class_names[] = {
-        "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat", "traffic light",
-        "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat", "dog", "horse", "sheep", "cow",
-        "elephant", "bear", "zebra", "giraffe", "backpack", "umbrella", "handbag", "tie", "suitcase", "frisbee",
-        "skis", "snowboard", "sports ball", "kite", "baseball bat", "baseball glove", "skateboard", "surfboard",
-        "tennis racket", "bottle", "wine glass", "cup", "fork", "knife", "spoon", "bowl", "banana", "apple",
-        "sandwich", "orange", "broccoli", "carrot", "hot dog", "pizza", "donut", "cake", "chair", "couch",
-        "potted plant", "bed", "dining table", "toilet", "tv", "laptop", "mouse", "remote", "keyboard", "cell phone",
-        "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors", "teddy bear",
-        "hair drier", "toothbrush"
+            "3+2-2", "3jia2", "aerbeisi", "anmuxi", "aoliao","asamu",
+            "baicha","baishikele","baishikele-2","baokuangli","binghongcha","bingqilinniunai",
+            "bingtangxueli","buding","chacui","chapai","chapai2","damaicha",
+            "daofandian1","daofandian2","daofandian3","daofandian4","dongpeng","dongpeng-b",
+            "fenda","gudasao","guolicheng","guolicheng2","haitai","haochidian",
+            "haoliyou","heweidao","heweidao2","heweidao3","hongniu","hongniu2",
+            "hongshaoniurou","jianjiao","jianlibao","jindian","kafei","kaomo_gali",
+            "kaomo_jiaoyan","kaomo_shaokao","kaomo_xiangcon","kebike","kele","kele-b",
+            "kele-b-2","laotansuancai","liaomian","libaojian","lingdukele","lingdukele-b",
+            "liziyuan","lujiaoxiang","lujikafei","luxiangniurou","maidong","mangguoxiaolao",
+            "meiniye","mengniu","mengniuzaocan","moliqingcha","nfc","niudufen",
+            "niunai","nongfushanquan","qingdaowangzi-1","qingdaowangzi-2","qinningshui","quchenshixiangcao",
+            "rancha-1","rancha-2","rousongbing","rusuanjunqishui","suanlafen","suanlaniurou",
+            "taipingshuda","tangdaren","tangdaren2","tangdaren3","ufo","ufo2",
+            "wanglaoji","wanglaoji-c","wangzainiunai","weic","weitanai","weitanai2",
+            "weitanaiditang","weitaningmeng","weitaningmeng-bottle","weiweidounai","wuhounaicha","wulongcha",
+            "xianglaniurou","xianguolao","xianxiayuban","xuebi","xuebi-b","xuebi2",
+            "yezhi","yibao","yida","yingyangkuaixian","yitengyuan","youlemei",
+            "yousuanru","youyanggudong","yuanqishui","zaocanmofang","zihaiguo"
     };
 
     static const unsigned char colors[19][3] = {
